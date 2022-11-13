@@ -12,6 +12,13 @@ ANUVIND = Client(
     bot_token=BOT_TOKEN
 )
 
+
+@ANUVIND.on_message(filters.command("start"))
+async def start_cmd(client, message):
+    print("Hi")
+
+
+
 print("Bot Working🥵")
 
 ANUVIND.run()
