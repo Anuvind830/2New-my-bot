@@ -15,7 +15,7 @@ ANUVIND = Client(
 
 @ANUVIND.on_message(filters.command("start"))
 async def start_cmd(client, message):
-    print("Hi")
+    await message.reply_text("Hello")
 
 
 
