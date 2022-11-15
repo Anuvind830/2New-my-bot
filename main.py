@@ -1,8 +1,8 @@
 from Pyrogram import Client, filters
 
-API_ID = ""
-API_HASE = ""
-BOT_TOKEN = ""
+API_ID = "23091473"
+API_HASE = "f9be1bdf0d12748c40b61c2b1f291e0d"
+BOT_TOKEN = "5721163594:AAHye3moY_9nyppGT_n9cvJjFv-x4BWZ0kA"
 
 
 ANUVIND = Client(
