@@ -18,6 +18,11 @@ async def start_cmd(client, message):
     await message.reply_text("Hello")
 
 
+@ANUVIND.on_message(filters.command("help"))
+async def help_cmd(client, mdg):
+    await mdg. reply_photo("https://telegra.ph/file/14d1c067cb2b6295f4668.jpg")
+
+
 
 print("Bot Working🥵")
 
